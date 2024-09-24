@@ -1,30 +1,34 @@
-<html>  
-    <head><title></title></head>
+<!DOCTYPE html>
+<html>
+    <head><title>Form Exercise</title></head>
     <body>
-        <h1 style="color: red;">Places I Have Lived</h1>
-        <ul>
-            <li>Longmont<span style="color: red;">(This feels redundant.)</span></li>
-                <dd>I moved here at 1 month old until I graduated highschool in 2011</dd>
-            <li>Logan<span style="color: red;">(This feels redundant.)></li>
-                <dd>I lived in Logan for 5 years while I attended University</dd>
-            <li>Amman<span style="color: red;">(This feels redundant.)</Span></li>
-                <dd>I lived in Amman during the summer of 2014 during a study abroad</dd>
-            <li>Sierra Vista<span style="color: red;">(This feels redundant)</span></li>
-                <dd>I lived in Sierra Vista for a total of 5 months during and after attending the Basic Officer Leaders Course</dd>
-            <li>Fort Irwin<span style="color: red;">(This feels redundant.)</span></li>
-                <dd>I lived in Fort Irwin for 4 years while I was assigned there</dd>
-            <li>Fayetteville<span style="color: red;">(This feels redundant).</span></li>
-                <dd>I lived in Fayetteville for 6 months between 2016-2017 and now for the past 3 years</dd>
-        </ul>
-        <h1>Places I Would Like to Live</h1>
-        <ol>
-            <li><strong>Atlantis</strong><span style="color: red;">(This feels redundant.)</span></li>
-                <dd>Hot glowy blue girls and floating fish-cars. Need I say more?</dd>
-            <li><em>Taipei</em><span style="color: red;">(This feels redundant.)</span></li>
-                <dd>I would like to practice the language I spent 1000 hours and $300,000 of DoD funds learning</dd>
-            <li><strong>相公</strong><span style="color: red;">(This feels redundant.)</span></li>
-                <dd>Same as above, but maybe learn some 广东话 while I'm at it</dd>
-        </ol>
-
+        <header>This is my example form!</header>
+        <form>
+            <h1>Please fill out the following</h1>
+            <label>
+                Email
+                <input type="text" name="email" value="" placeholder="Type your email here">
+            </label>
+            <label>
+                Password
+                <input type="text" name="password" value="" placeholder="Definitely give me your real password here">
+            </label>
+            <label>
+                Username
+                <input type="text" name="password" value="" placeholder="Definitely give me your real username here">
+            </label>
+            <label>
+                Account Type
+                <input type="radio" name="accounttype" value="Enterprise"> Enterprise
+                <input type="radio" name="accounttype" value="Pro"> Pro
+                <input type="radio" name="accounttype" value="Free"> Free
+            </label>
+            <label>
+                Remember me?
+                <input type="checkbox" name="rememberme" value="Remember me">
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+        <footer><em>Powered By cjtaberski Technologies Copyright 2024</em></footer>
     </body>
 </html>
